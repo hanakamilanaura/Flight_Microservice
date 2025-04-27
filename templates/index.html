@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MultiService App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 MultiService App</h1>
+            <p class="subtitle">Your one-stop solution for Booking, Flights, and User Management</p>
+        </header>
+        <nav>
+            <a href="/booking">Booking Service</a>
+            <a href="/flight">Flight Service</a>
+            <a href="/user">User Service</a>
+        </nav>
+        <section>
+            <h2>About This Project</h2>
+            <p>
+                This project integrates multiple services into a single platform, making management and access easier for users and administrators.
+            </p>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>🔖 Booking</h3>
+                    <p>Easy and fast booking management for your needs.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>✈️ Flight</h3>
+                    <p>Check, book, and manage your flights in one place.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>👤 User</h3>
+                    <p>Manage user profiles and access securely and efficiently.</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 MultiService App. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
