@@ -1,0 +1,90 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 15px rgba(0,0,0,.05);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-icon {
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+.table th {
+    border-top: none;
+    font-weight: 600;
+}
+
+.airline-logo {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.badge {
+    padding: 8px 12px;
+    border-radius: 30px;
+}
+
+.btn-sm {
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+/* Custom colors */
+.bg-primary {
+    background-color: #4e73df !important;
+}
+
+.btn-primary {
+    background-color: #4e73df;
+    border-color: #4e73df;
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+    border-color: #2e59d9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .stat-card {
+        margin-bottom: 15px;
+    }
+    
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Animation for status badges */
+.badge {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
