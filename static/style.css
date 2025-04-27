@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(135deg, #23272f 0%, #181818 100%);
+    color: #f5f5f5;
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #23272f;
+    border-radius: 16px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.4);
+    padding: 40px 32px 24px 32px;
+}
+header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    color: #00bcd4;
+    letter-spacing: 2px;
+}
+.subtitle {
+    color: #b0bec5;
+    font-size: 1.2em;
+    margin-top: 8px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 36px;
+}
+nav a {
+    color: #fff;
+    background: #00bcd4;
+    padding: 12px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    box-shadow: 0 2px 8px rgba(0,188,212,0.15);
+    transition: background 0.2s, transform 0.2s;
+}
+nav a:hover {
+    background: #0097a7;
+    transform: translateY(-2px) scale(1.05);
+}
+section {
+    margin-bottom: 32px;
+}
+.features {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+.feature-card {
+    background: #181c22;
+    border-radius: 10px;
+    padding: 24px 18px;
+    min-width: 180px;
+    max-width: 220px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    text-align: center;
+    margin-bottom: 16px;
+}
+.feature-card h3 {
+    margin-top: 0;
+    color: #00bcd4;
+    font-size: 1.3em;
+}
+footer {
+    text-align: center;
+    color: #b0bec5;
+    font-size: 0.95em;
+    margin-top: 32px;
+}
